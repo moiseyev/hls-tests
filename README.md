@@ -29,5 +29,7 @@
 | El Capitan    | 9.1            | ✓                       | ✓                       | ✓    |
 | Sierra        | 10.0           | ✓                       | ✓                       | ✓    |
 
-1: `canPlayType('application/vnd.apple.mpegURL')`
-2: `canPlayType('application/x-mpegurl')`
+
+## Footnotes
+1. `canPlayType('application/vnd.apple.mpegURL')`
+2. `canPlayType('application/x-mpegurl')`
