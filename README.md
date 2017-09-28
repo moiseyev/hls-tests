@@ -9,8 +9,8 @@
   ```
 
 ## Running your tests
-* To run local tests, run `npm run test`
-* To run BrowserStack tests, run `npm run test:browserstack`
+* `npm run test` – to run local tests
+* `npm run test:bs:osx:safari` – to run BrowserStack OS X Safari tests
 
 ## Notes
 * You can view your test results on the [BrowserStack automate dashboard](https://www.browserstack.com/automate)

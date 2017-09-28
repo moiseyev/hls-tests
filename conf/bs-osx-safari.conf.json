@@ -1,0 +1,26 @@
+{
+    "capabilities": {
+        "name": "HLS Native Support",
+        "build": "OS X Safari",
+        "browserstack.local": false,
+        "fixSessionCapabilities": false,
+        "os": "OS X",
+        "resolution": "1024x768"
+    },
+    "defaultTimeout": 300000,
+    "environments": [
+        { "browser": "Safari", "os_version": "Sierra", "browser_version": "10.0" },
+        { "browser": "Safari", "os_version": "El Capitan", "browser_version": "9.1" },
+        { "browser": "Safari", "os_version": "Yosemite", "browser_version": "8.0" },
+        { "browser": "Safari", "os_version": "Mavericks", "browser_version": "7.1" },
+        { "browser": "Safari", "os_version": "Mountain Lion", "browser_version": "6.2" },
+        { "browser": "Safari", "os_version": "Lion", "browser_version": "6.0" },
+        { "browser": "Safari", "os_version": "Snow Leopard", "browser_version": "5.1" }
+    ],
+    "maxConcurrency": 4,
+    "tunnel": "browserstack",
+    "tunnelOptions": {
+        "verbose": true
+    },
+    "functionalSuites": "build/tests/functional/*.js"
+}
