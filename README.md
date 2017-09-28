@@ -19,7 +19,7 @@
 
 ### OS X Safari
 
-| OS Version    | Safari Version | canPlayType<sup>1</sup> | canPlayType<sup>2</sup> | Play |
+| OS Version    | Safari Version | canPlayType<sup>[1](#fn)</sup> | canPlayType<sup>[2](#fn)</sup> | Play |
 | ------------- |:--------------:|:-----------------------:|:-----------------------:|:----:|
 | Snow Leopard  | 5.1            | ✓                       | ✓                       | ?    |
 | Lion          | 6.0            | ✓                       | ✓                       | ?    |
@@ -30,6 +30,7 @@
 | Sierra        | 10.0           | ✓                       | ✓                       | ✓    |
 
 
-## Footnotes
+<a name="fn"></a>
+---
 1. `canPlayType('application/vnd.apple.mpegURL')`
 2. `canPlayType('application/x-mpegurl')`
