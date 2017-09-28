@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HLS Support Test</title>
+</head>
+<body>
+    <video id="video" controls="true" src="https://media.integros.com/video/c8317c4e84aa8391/hls/index.m3u8"></video>
+    <hr>
+    <div>
+        <button id="play-button">Play</button>
+    </div>
+    <hr>
+    <pre>canPlayType('application/vnd.apple.mpegURL'): '<span id="can-play-type-1"></span>'</pre>
+    <pre>canPlayType('application/x-mpegurl'): '<span id="can-play-type-2"></span>'</pre>
+    <script>
+        var video = document.getElementById('video');
+        var playButton = document.getElementById('play-button');
+        var log1 = document.getElementById('can-play-type-1');
+        var log2 = document.getElementById('can-play-type-2');
+
+        playButton.addEventListener('click', function() {
+            video.play();
+        });
+
+        log1.innerHTML = document.createElement('video').canPlayType('application/vnd.apple.mpegURL');
+        log2.innerHTML = document.createElement('video').canPlayType('application/x-mpegurl');
+    </script>
+</body>
+</html>

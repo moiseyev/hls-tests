@@ -1,0 +1,10 @@
+{
+    "functionalSuites": "build/tests/functional/*.js",
+    "environments": {
+        "browserName": "chrome",
+        "chromeOptions": {
+            "args": []
+        },
+        "fixSessionCapabilities": false
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.promise",
+            "es2015.symbol.wellknown"
+        ],
+        "sourceMap": false,
+        "importHelpers": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "outDir": "build",
+        "rootDir": ".",
+        "typeRoots": [
+            "./node_modules/@types",
+            "./node_modules/intern/types"
+        ],
+        "types": [
+            "intern"
+        ]
+    }
+}
