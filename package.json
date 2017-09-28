@@ -8,7 +8,8 @@
   },
   "scripts": {
     "build:test": "node_modules/.bin/tsc -p .",
-    "test": "npm run build:test && node_modules/.bin/intern"
+    "test": "npm run build:test && node_modules/.bin/intern config=conf/local.conf.json",
+    "test:browserstack": "npm run build:test && node_modules/.bin/intern config=conf/browserstack.conf.json"
   },
   "repository": {
     "type": "git",

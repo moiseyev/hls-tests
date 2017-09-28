@@ -1,11 +1,9 @@
-import { } from 'intern';
-
 const { suite, test, before } = intern.getInterface('tdd');
 const { assert } = intern.getPlugin('chai');
 
 suite('hls', () => {
     before(async ({ remote }) => {
-        await remote.get('tests/functional/hls.html');
+        await remote.get('https://moiseyev.github.io/hls-tests/tests/functional/hls.html');
         await remote.sleep(1000);
     });
 
