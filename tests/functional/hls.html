@@ -13,19 +13,31 @@
     <hr>
     <pre>canPlayType('application/vnd.apple.mpegURL'): '<span id="can-play-type-1"></span>'</pre>
     <pre>canPlayType('application/x-mpegurl'): '<span id="can-play-type-2"></span>'</pre>
+    <pre id="error-log"></pre>
     <script>
         var video = document.getElementById('video');
         var playButton = document.getElementById('play-button');
         var log1 = document.getElementById('can-play-type-1');
         var log2 = document.getElementById('can-play-type-2');
+        var errorLog = document.getElementById('error-log');
 
         playButton.addEventListener('click', function() {
-            this.style.backgroundColor = 'red';
-            video.play();
+            this.style.backgroundColor = 'lime';
+            video.play().catch(function (err) { setTimeout(function () { throw err; }); });
         });
 
         log1.innerHTML = document.createElement('video').canPlayType('application/vnd.apple.mpegURL');
         log2.innerHTML = document.createElement('video').canPlayType('application/x-mpegurl');
+
+        video.addEventListener('error', function() {
+            console.log(this.error);
+            throw this.error.message || this.error.code;
+        });
+
+        window.onerror = function(msg, url, lineNo, columnNo, error) {
+            errorLog.innerHTML += msg + '\n';
+            return false;
+        };
     </script>
 </body>
 </html>
