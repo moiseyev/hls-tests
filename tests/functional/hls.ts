@@ -17,6 +17,7 @@ suite('hls', () => {
 
     test('play', async ({ remote }) => {
         await remote.findById('play-button').click();
+        await remote.sleep(1000);
         assert.equal(await remote.findById('video').getProperty('paused'), false);
     });
 });
