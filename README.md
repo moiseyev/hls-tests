@@ -21,13 +21,13 @@
 
 | OS Version    | Safari Version | canPlayType<sup>[1](#fn)</sup> | canPlayType<sup>[2](#fn)</sup> | Play |
 | ------------- |:--------------:|:-----------------------:|:-----------------------:|:----:|
-| Snow Leopard  | 5.1            | ✓                       | ✓                       | ?    |
-| Lion          | 6.0            | ✓                       | ✓                       | ?    |
-| Mountain Lion | 6.2            | ✓                       | ✓                       | ✓    |
-| Mavericks     | 7.1            | ✓                       | ✓                       | ?    |
-| Yosemite      | 8.0            | ✓                       | ✓                       | ✓    |
-| El Capitan    | 9.1            | ✓                       | ✓                       | ✓    |
-| Sierra        | 10.0           | ✓                       | ✓                       | ✓    |
+| Snow Leopard  | 5.1            | maybe                   | maybe                   | ?    |
+| Lion          | 6.0            | maybe                   | maybe                   | ?    |
+| Mountain Lion | 6.2            | maybe                   | maybe                   | ✓    |
+| Mavericks     | 7.1            | maybe                   | maybe                   | ?    |
+| Yosemite      | 8.0            | maybe                   | maybe                   | ✓    |
+| El Capitan    | 9.1            | maybe                   | maybe                   | ✓    |
+| Sierra        | 10.0           | maybe                   | maybe                   | ✓    |
 
 
 <a name="fn"></a>
