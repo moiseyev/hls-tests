@@ -17,7 +17,7 @@
 
 ## Results
 
-### OS X Safari
+### Native HLS support on OS X Safari
 
 | OS Version    | Safari Version | canPlayType<sup>[1](#fn)</sup> | canPlayType<sup>[2](#fn)</sup> | Play |
 | ------------- |:--------------:|:-----------------------:|:-----------------------:|:----:|
@@ -28,6 +28,7 @@
 | Yosemite      | 8.0            | maybe                   | maybe                   | ✓    |
 | El Capitan    | 9.1            | maybe                   | maybe                   | ✓    |
 | Sierra        | 10.0           | maybe                   | maybe                   | ✓    |
+| Sierra        | 11.0           | maybe                   | maybe                   | ✓    |
 
 
 <a name="fn"></a>
