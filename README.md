@@ -73,9 +73,9 @@
 | Samsung Galaxy S8 Plus  | 7.0 | maybe | maybe | ✓ | ✓ |
 | Samsung Galaxy S7       | 6.0 | maybe | maybe | ✓ | ✓ |
 | Samsung Galaxy S6       | 5.0 | maybe | maybe | ✓ | ✓ |
-| Samsung Galaxy S5       | 4.4 | ''    | ''    | :bomb: | :bomb: |
+| Samsung Galaxy S5       | 4.4 | ''    | ''    | crash | crash |
 | Samsung Galaxy S5*      | 4.4 | maybe | maybe | ✓ | ✓ |
-| Samsung Galaxy S4       | 4.3 | maybe | maybe | :bomb: | :bomb: |
+| Samsung Galaxy S4       | 4.3 | maybe | maybe | crash | crash |
 | Samsung Galaxy S4*      | 4.4 | maybe | maybe | ✓ | ✓ |
 | Samsung Galaxy S3       | 4.1 | maybe | maybe | × | × |
 | Samsung Galaxy S2*      | 2.3 | ''    | ''    | × | × |
@@ -83,7 +83,7 @@
 | Samsung Galaxy Note 4*  | 4.4 | maybe | maybe | ✓ | ✓ |
 | Samsung Galaxy Note 3*  | 4.3 | maybe | maybe | ✓ | ✓ |
 | Samsung Galaxy Note 2   | 4.1 | maybe | maybe | ✓ | × |
-| Samsung Galaxy S5 Mini  | 4.4 | ''    | ''    | :bomb: | :bomb: |
+| Samsung Galaxy S5 Mini  | 4.4 | ''    | ''    | crash | crash |
 | Motorola Moto X 2nd Gen | 6.0 | maybe | maybe | ✓ | ✓ |
 | Motorola Moto X 2nd Gen | 5.0 | maybe | maybe | ✓ | ✓ |
 | Motorola Razr           | 4.0 | maybe | maybe | × | × |
@@ -96,5 +96,4 @@
 ---
 1. `canPlayType('application/vnd.apple.mpegURL')`
 2. `canPlayType('application/x-mpegurl')`
-* – Manualy tested
-:bomb: – Crash browser
+~* – Manualy tested
