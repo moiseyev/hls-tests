@@ -1,0 +1,35 @@
+{
+    "capabilities": {
+        "name": "HLS Native Support",
+        "build": "Android Chrome",
+        "browserstack.local": false,
+        "fixSessionCapabilities": false,
+        "acceptSslCert": true,
+        "networkConnectionEnabled": true
+    },
+    "defaultTimeout": 300000,
+    "environments": [
+        { "device": "Samsung Galaxy S8", "browserName": "android", "realMobile": true, "os_version": "7.0" },
+        { "device": "Samsung Galaxy S8 Plus", "browserName": "android", "realMobile": true, "os_version": "7.0" },
+        { "device": "Samsung Galaxy S7", "browserName": "android", "realMobile": true, "os_version": "6.0" },
+        { "device": "Samsung Galaxy S6", "browserName": "android", "realMobile": true, "os_version": "5.0" },
+        { "device": "Samsung Galaxy S5", "browserName": "android", "realMobile": false, "platform": "ANDROID" },
+        { "device": "Samsung Galaxy S4", "browserName": "android", "realMobile": false, "platform": "ANDROID" },
+        { "device": "Samsung Galaxy S3", "browserName": "android", "realMobile": false, "platform": "ANDROID" },
+        { "device": "Samsung Galaxy Note 2", "browserName": "android", "realMobile": false, "platform": "ANDROID" },
+        { "device": "Samsung Galaxy Note 3", "browserName": "android", "realMobile": false, "platform": "ANDROID" },
+        { "device": "Samsung Galaxy S5 Mini", "browserName": "android", "realMobile": false, "platform": "ANDROID" },
+        { "device": "Motorola Moto X 2nd Gen", "browserName": "android", "realMobile": true, "os_version": "5.0" },
+        { "device": "Motorola Moto X 2nd Gen", "browserName": "android", "realMobile": true, "os_version": "6.0" },
+        { "device": "Motorola Razr", "browserName": "android", "realMobile": false, "platform": "ANDROID" },
+        { "device": "Motorola Razr Maxx HD", "browserName": "android", "realMobile": false, "platform": "ANDROID" },
+        { "device": "HTC One M8", "browserName": "android", "realMobile": false, "platform": "ANDROID" },
+        { "device": "HTC One X", "browserName": "android", "realMobile": false, "platform": "ANDROID" }
+    ],
+    "maxConcurrency": 4,
+    "tunnel": "browserstack",
+    "tunnelOptions": {
+        "verbose": true
+    },
+    "functionalSuites": "build/tests/functional/*.js"
+}
