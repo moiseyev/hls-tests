@@ -30,6 +30,23 @@
 | Lion          | 6.0  | maybe | maybe | ✓ | ✓ |
 | Snow Leopard  | 5.1  | maybe | maybe | ✓ | × |
 
+### Native HLS support on iPhone Safari
+
+| Device | OS Version | canPlayType<sup>[1](#fn)</sup> | canPlayType<sup>[2](#fn)</sup> | video.paused === false | Real Play |
+| -------------- |:----:|:-----:|:-----:|:-:|:-:|
+| iPhone 7 Plus  | 10.3 | maybe | maybe | ✓ | ✓ |
+| iPhone 7       | 10.3 | maybe | maybe | ✓ | ✓ |
+| iPhone 6S Plus | 9.0  | maybe | maybe | ✓ | ✓ |
+| iPhone 6S      | 9.0  | maybe | maybe | ✓ | ✓ |
+| iPhone 6 Plus  | 8.0  | maybe | maybe | ✓ | ✓ |
+| iPhone 6       | 8.0  | maybe | maybe | ✓ | ✓ |
+| iPhone 5S      | 7.0  | maybe | maybe | ✓ | ✓ |
+| iPhone 5       | 6.0  | maybe | maybe | ✓ | ✓ |
+| iPhone 4S      | 6.0  | maybe | maybe | ✓ | ✓ |
+| iPhone 4S      | 5.1  | maybe | maybe | ✓ | ✓ |
+| iPhone 4       | 4.0  | ''    | ''    | × | × |
+| iPhone 3GS     | 3.0  | ''    | ''    | × | × |
+
 
 <a name="fn"></a>
 ---
