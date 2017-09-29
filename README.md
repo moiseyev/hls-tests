@@ -86,14 +86,25 @@
 | Samsung Galaxy S5 Mini  | 4.4 | ''    | ''    | crash | crash |
 | Motorola Moto X 2nd Gen | 6.0 | maybe | maybe | ✓ | ✓ |
 | Motorola Moto X 2nd Gen | 5.0 | maybe | maybe | ✓ | ✓ |
+| Motorola Moto G 2nd Gen*| 5.0 | maybe | maybe | ✓ | ✓ |
 | Motorola Razr           | 4.0 | maybe | maybe | × | × |
 | Motorola Razr Maxx HD   | 4.1 | maybe | maybe | × | × |
 | HTC One M8              | 4.4 | ''    | ''    | × | × |
 | HTC One X               | 4.0 | maybe | maybe | × | × |
-
+| Google Pixel*           | 8.0 | maybe | maybe | ✓ | ✓ |
+| Google Pixel*           | 7.1 | maybe | maybe | ✓ | ✓ |
+| Google Pixel XL*        | 7.1 | maybe | maybe | ✓ | ✓ |
+| Google Nexus 6P*        | 7.0 | maybe | maybe | ✓ | ✓ |
+| Google Nexus 5X*        | 7.0 | maybe | maybe | ✓ | ✓ |
+| Google Nexus 6*         | 6.0 | maybe | maybe | ✓ | ✓ |
+| Google Nexus 6*         | 5.0 | maybe | maybe | ✓ | ✓ |
+| Google Nexus 4*         | 4.2 | maybe | maybe | × | × |
+| LG G5*                  | 6.0 | maybe | maybe | ✓ | ✓ |
+| Sony Xperia Tipo*       | 4.0 | maybe | maybe | × | × |
 
 <a name="fn"></a>
 ---
 1. `canPlayType('application/vnd.apple.mpegURL')`
 2. `canPlayType('application/x-mpegurl')`
-~* – Manualy tested
+
+*~ – Manualy tested
