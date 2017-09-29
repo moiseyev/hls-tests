@@ -1,0 +1,28 @@
+{
+    "capabilities": {
+        "name": "HLS Native Support",
+        "build": "Android Tablets Chrome",
+        "browserstack.local": false,
+        "fixSessionCapabilities": false,
+        "acceptSslCert": true,
+        "networkConnectionEnabled": true
+    },
+    "defaultTimeout": 300000,
+    "environments": [
+        { "device": "Samsung Galaxy Tab 4", "browserName": "android", "realMobile": true, "os_version": "4.4" },
+        { "device": "Samsung Galaxy Note 4", "browserName": "android", "realMobile": true, "os_version": "6.0" },
+        { "device": "Samsung Galaxy Tab 4 10.1", "browserName": "android", "realMobile": false, "platform": "ANDROID" },
+        { "device": "Samsung Galaxy Note 10.1", "browserName": "android", "realMobile": false,"platform": "ANDROID" },
+        { "device": "Amazon Kindle Fire 2", "browserName": "android", "realMobile": false,"platform": "ANDROID" },
+        { "device": "Amazon Kindle Fire HD 8.9", "browserName": "android", "realMobile": false,"platform": "ANDROID" },
+        { "device": "Amazon Kindle Fire HDX 7", "browserName": "android", "realMobile": false,"platform": "ANDROID" },
+        { "device": "Google Nexus 9", "browserName": "android", "realMobile": true, "os_version": "5.1" },
+        { "device": "Google Nexus 7", "browserName": "android", "realMobile": false,"platform": "ANDROID" }
+    ],
+    "maxConcurrency": 4,
+    "tunnel": "browserstack",
+    "tunnelOptions": {
+        "verbose": true
+    },
+    "functionalSuites": "build/tests/functional/*.js"
+}

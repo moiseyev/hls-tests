@@ -66,7 +66,7 @@
 | iPad 2         | 5.0  | maybe | maybe | ? | × |
 | iPad 2         | 4.3.2| ''    | ''    | ? | ✓ |
 
-### Native HLS support on Android Chrome
+### Native HLS support on Android in Chrome
 | Device | OS Version | canPlayType<sup>[1](#fn)</sup> | canPlayType<sup>[2](#fn)</sup> | video.paused === false | Real Play |
 | ----------------------- |:----:|:-----:|:-----:|:-:|:-:|
 | Samsung Galaxy S8       | 7.0 | maybe | maybe | ✓ | ✓ |
@@ -101,6 +101,22 @@
 | Google Nexus 4*         | 4.2 | maybe | maybe | × | × |
 | LG G5*                  | 6.0 | maybe | maybe | ✓ | ✓ |
 | Sony Xperia Tipo*       | 4.0 | maybe | maybe | × | × |
+
+### Native HLS support on Android Tablets in Chrome
+| Device | OS Version | canPlayType<sup>[1](#fn)</sup> | canPlayType<sup>[2](#fn)</sup> | video.paused === false | Real Play |
+| -------------------------- |:----:|:-----:|:-----:|:-:|:-:|
+| Samsung Galaxy Tab 4       | 4.4  | maybe | maybe | ✓ | ✓ |
+| Samsung Galaxy Note 4      | 6.0  | maybe | maybe | ✓ | ✓ |
+| Samsung Galaxy Tab 4 10.1  | 4.0  | maybe | maybe | × | × |
+| Samsung Galaxy Tab 4 10.1* | 4.4  | maybe | maybe | ✓ | ✓ |
+| Samsung Galaxy Tab 2 10.1* | 4.0  | maybe | maybe | × | × |
+| Samsung Galaxy Note 10.1   | 4.0  | maybe | maybe | × | × |
+| Amazon Kindle Fire 2       | 4.0  | maybe | maybe | × | × |
+| Amazon Kindle Fire HD 8.9  | 4.0  | maybe | maybe | × | × |
+| Amazon Kindle Fire HDX 7   | 4.3  | maybe | maybe | crash | crash |
+| Google Nexus 9             | 5.1  | maybe | maybe | ✓ | ✓ |
+| Google Nexus 7             | 4.1  | maybe | maybe | × | × |
+| Google Nexus 7*            | 6.0  | maybe | maybe | ✓ | ✓ |
 
 <a name="fn"></a>
 ---
