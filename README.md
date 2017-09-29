@@ -47,6 +47,25 @@
 | iPhone 4       | 4.0  | ''    | ''    | × | × |
 | iPhone 3GS     | 3.0  | ''    | ''    | × | × |
 
+### Native HLS support on iPad Safari
+
+| Device | OS Version | canPlayType<sup>[1](#fn)</sup> | canPlayType<sup>[2](#fn)</sup> | video.paused === false | Real Play |
+| -------------- |:----:|:-----:|:-----:|:-:|:-:|
+| iPad Pro       | 10.3 | maybe | maybe | ✓ | ✓ |
+| iPad Pro       | 9.3  | maybe | maybe | ✓ | ✓ |
+| iPad Air 2     | 9.3  | maybe | maybe | ✓ | ✓ |
+| iPad Air 2     | 8.0  | maybe | maybe | ✓ | ✓ |
+| iPad Mini 4    | 9.3  | maybe | maybe | ✓ | ✓ |
+| iPad Mini 3    | 8.0  | maybe | maybe | ✓ | ✓ |
+| iPad Mini 2    | 8.3  | maybe | maybe | ✓ | ✓ |
+| iPad Mini 2    | 7.0  | maybe | maybe | ✓ | ✓ |
+| iPad Mini      | 7.0  | maybe | maybe | ✓ | ✓ |
+| iPad 4         | 7.0  | maybe | maybe | ✓ | ✓ |
+| iPad 3rd       | 6.0  | maybe | maybe | ✓ | ✓ |
+| iPad 3rd       | 5.1  | maybe | maybe | ✓ | ✓ |
+| iPad 2         | 5.0  | maybe | maybe | × | × |
+| iPad 2         | 4.3.2| ''    | ''    | ✓ | ✓ |
+
 
 <a name="fn"></a>
 ---
