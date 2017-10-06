@@ -23,7 +23,7 @@
 
         playButton.addEventListener('click', function() {
             this.style.backgroundColor = 'lime';
-            video.play().catch(function (err) { setTimeout(function () { throw err; }); });
+            video.play();
         });
 
         log1.innerHTML = document.createElement('video').canPlayType('application/vnd.apple.mpegURL');
