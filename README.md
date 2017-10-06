@@ -10,7 +10,10 @@
 
 ## Running your tests
 * `npm run test` – to run local tests
-* `npm run test:bs:osx:safari` – to run BrowserStack OS X Safari tests
+* `npm run test:bs:osx:safari` – to run BrowserStack tests on OS X/Safari
+* `npm run test:bs:iphone:safari` – to run BrowserStack tests on iPhone/Safari
+* `npm run test:bs:android:chrome` – to run BrowserStack tests on Android/Chrome
+* `npm run test:bs:android:tablets:chrome` – to run BrowserStack tests on Android Tablets/Chrome
 
 ## Notes
 * You can view your test results on the [BrowserStack automate dashboard](https://www.browserstack.com/automate)
