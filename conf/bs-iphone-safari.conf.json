@@ -1,0 +1,21 @@
+{
+    "capabilities": {
+        "name": "HLS Native Support",
+        "build": "iPhone Safari",
+        "browserstack.local": false,
+        "fixSessionCapabilities": false,
+        "platform": "MAC",
+        "acceptSslCert": true,
+        "networkConnectionEnabled": true
+    },
+    "defaultTimeout": 300000,
+    "environments": [
+        { "browserName": "iPhone", "device": "iPhone 6S Plus" }
+    ],
+    "maxConcurrency": 4,
+    "tunnel": "browserstack",
+    "tunnelOptions": {
+        "verbose": true
+    },
+    "functionalSuites": "build/tests/functional/*.js"
+}
