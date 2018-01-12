@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Fragmented</title>
+    <script src="https://media.integros.com/player.js"></script>
+</head>
+<body>
+    <div id="player"></div>
+    <script>
+        var urls = {
+            "mp4": {
+                "480": "https://media.integros.com/video/c8317c4e84aa8391/mp4/480.mp4",
+                "720": "https://media.integros.com/video/c8317c4e84aa8391/mp4/720.mp4"
+            },
+            "hls": "http://185.38.13.124:8088/apple_mp4/main.m3u8"
+        };
+        var params = {};
+        var options = {};
+        Integros.Player.create('player', urls, params, options);
+    </script>
+</body>
+</html>
